@@ -9,10 +9,10 @@ def get_connection():
     Replace these placeholders with your actual credentials.
     """
     return s2.connect(
-        host='svc-cbf46420-d7ac-47be-b79c-5b64bc6282af-dml.aws-virginia-5.svc.singlestore.com',
-        user='admin',
-        password='MDElMNZ14QMOGCXZq7ufDGricZAV8Um9',
-        database='classicmodels'
+        host='your-singlestore-host',
+        user='your-singlesotre-user',
+        password='your-singlestore-password',
+        database='your-singlestore-database'
     )
 
 def setup_schema():
